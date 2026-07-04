@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#3b0764"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="200" rx="16" fill="url(#bg3)"/>
+
+  <!-- simple neural network icon -->
+  <g transform="translate(960,30)">
+    <g stroke="#c084fc" stroke-width="1.5" opacity="0.5">
+      <line x1="0" y1="20" x2="60" y2="0"/>
+      <line x1="0" y1="20" x2="60" y2="40"/>
+      <line x1="0" y1="20" x2="60" y2="80"/>
+      <line x1="0" y1="70" x2="60" y2="0"/>
+      <line x1="0" y1="70" x2="60" y2="40"/>
+      <line x1="0" y1="70" x2="60" y2="80"/>
+      <line x1="0" y1="120" x2="60" y2="0"/>
+      <line x1="0" y1="120" x2="60" y2="40"/>
+      <line x1="0" y1="120" x2="60" y2="80"/>
+      <line x1="60" y1="0" x2="120" y2="40"/>
+      <line x1="60" y1="40" x2="120" y2="40"/>
+      <line x1="60" y1="80" x2="120" y2="40"/>
+    </g>
+    <g fill="url(#node)">
+      <circle cx="0" cy="20" r="7"/>
+      <circle cx="0" cy="70" r="7"/>
+      <circle cx="0" cy="120" r="7"/>
+      <circle cx="60" cy="0" r="7"/>
+      <circle cx="60" cy="40" r="7"/>
+      <circle cx="60" cy="80" r="7"/>
+      <circle cx="120" cy="40" r="9"/>
+    </g>
+  </g>
+
+  <!-- checkmark badge -->
+  <g transform="translate(90,100)">
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#c084fc" stroke-width="5"/>
+    <path d="M -18 0 L -5 15 L 20 -15" stroke="#e9d5ff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="190" y="85" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#faf5ff">Model Training &amp; Evaluation</text>
+  <text x="190" y="120" font-family="Arial, sans-serif" font-size="20" fill="#e9d5ff">KNN · Logistic Regression · Naive Bayes</text>
+
+  <rect x="190" y="140" width="560" height="4" rx="2" fill="url(#node)"/>
+</svg>
